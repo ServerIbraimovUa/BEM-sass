@@ -1,0 +1,12 @@
+/**
+  |============================
+  | logo
+  |============================
+*/
+.logo {
+  @include logo;
+  @include link;
+}
+.logo__text--dark {
+  color: $color_grey;
+}
