@@ -8,3 +8,11 @@
 .header__container {
   @include flex-center();
 }
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 428px;
+  }
+  .header__container {
+    height: 70px;
+  }
+}

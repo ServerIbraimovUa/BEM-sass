@@ -4,29 +4,9 @@
 .section {
   padding: 120px 0;
 }
-.section-doing {
-  padding-bottom: 120px;
-}
-.section-portfolio {
+. .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-/* =====display= */
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-.list-strategy {
-  display: flex;
-}
-
-.item-strategy {
-  width: calc((100% - 3 * 24px) / 4);
-  margin-right: 24px;
-}
-.item-strategy:nth-child(4n) {
-  margin-right: 0;
 }
 
 .list-doing {
@@ -59,45 +39,8 @@
   color: #f4f4fd;
 }
 
-/* заголовки */
-.title {
-  margin-bottom: 72px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  color: #2e2f42;
-}
-
-/* секция стратегия */
-
-.caption {
-  margin-bottom: 8px;
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-/* ===== what are doing  */
-.item-doing + .item-doing {
-  margin-left: 24px;
-}
-
 /* подзаголовок */
-.subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 /* командa */
 .section-team {
   padding: 120px 0;
@@ -335,15 +278,6 @@
   | strategy-icon
   |============================
 */
-.strategy-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background: #f4f4fd;
-  border-radius: 4px;
-}
 
 /**
   |============================

@@ -1,0 +1,5 @@
+.caption {
+  margin-bottom: 8px;
+  @include font-caption;
+  color: $color_grey;
+}

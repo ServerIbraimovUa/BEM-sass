@@ -1,0 +1,25 @@
+.strategy__list {
+  text-align: center;
+  @extend %list;
+  @include flex-column;
+  gap: 24px;
+}
+.strategy__list-item {
+  // width: calc((100% - 3 * 24px) / 4);
+}
+.strategy__list-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  background: $color_cloud;
+  border-radius: 4px;
+}
+.strategy__list-icon {
+}
+@media screen and (max-width: 1158px) {
+  .strategy__list-box {
+    display: none;
+  }
+}

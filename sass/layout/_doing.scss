@@ -1,0 +1,15 @@
+.section-doing {
+  padding-bottom: 120px;
+}
+.doing__list {
+  @extend %list;
+  @include flex-center;
+  gap: 24px;
+}
+.doing__list-item {
+}
+@media screen and (max-width: 1158px) {
+  .section-doing {
+    display: none;
+  }
+}
