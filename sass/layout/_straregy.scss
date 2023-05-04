@@ -22,4 +22,8 @@
   .strategy__list-box {
     display: none;
   }
+
+  .strategy__list-caption--m {
+    @include font(36px, 700, 40px);
+  }
 }
