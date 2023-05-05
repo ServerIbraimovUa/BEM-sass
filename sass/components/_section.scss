@@ -6,3 +6,15 @@
     padding: 120px 0;
   }
 }
+@media only screen and (min-width: 768px) {
+  .section-portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+}
