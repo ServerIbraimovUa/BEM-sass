@@ -21,7 +21,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/bg/mobile-bg.jpg);
+      url(../images/bg/mobile-bg.jpg);
   }
 }
 @media screen and (min-width: 428px) {
@@ -30,7 +30,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/bg/tablet-bg.jpg);
+      url(../images/bg/tablet-bg.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -39,7 +39,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/bg/people-office.jpg);
+      url(../images/bg/people-office.jpg);
   }
   .hero__title {
     @include font(56px, 700, 60px);
