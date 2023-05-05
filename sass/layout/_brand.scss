@@ -29,3 +29,16 @@
 .brand-list__icon {
   fill: currentColor;
 }
+@media only screen and (min-width: 768px) {
+  .brand-list {
+    column-gap: 24px;
+  }
+  .brand-list__item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .brand-list__item {
+    width: calc((100% - 5 * 24px) / 6);
+  }
+}

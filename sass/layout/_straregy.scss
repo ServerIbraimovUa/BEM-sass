@@ -3,9 +3,23 @@
   @extend %list;
   @include flex-column;
   gap: 24px;
+  row-gap: 72px;
 }
-.strategy__list-item {
-  // width: calc((100% - 3 * 24px) / 4);
+@media screen and (min-width: 768px) {
+  .strategy__list {
+    text-align: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .strategy__list-item {
+    width: calc((100% - 1 * 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .strategy__list-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
 }
 .strategy__list-box {
   display: flex;

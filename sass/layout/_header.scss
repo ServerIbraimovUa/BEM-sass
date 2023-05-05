@@ -70,10 +70,14 @@
 }
 .contact__list {
   @include list;
-  @include flex-center;
-  gap: 40px;
 }
 
+@media screen and (min-width: 1158px) {
+  .contact__list {
+    @include flex-center;
+    gap: 40px;
+  }
+}
 .contact__list-link {
   @include link;
   @include font(16px, 400, 24px, 0.02em);

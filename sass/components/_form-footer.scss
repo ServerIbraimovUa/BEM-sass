@@ -1,9 +1,14 @@
 .footer-form {
   position: relative;
+  @include flex-column;
   gap: 24px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-form {
+    flex-direction: row;
+  }
+}
 .footer-input {
-  margin-bottom: 16px;
   padding: 8px;
   padding-left: 16px;
   width: 100%;
@@ -20,6 +25,11 @@
 }
 .footer-input::placeholder {
   color: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .footer-input {
+    width: 264px;
+  }
 }
 
 .footer-span {
